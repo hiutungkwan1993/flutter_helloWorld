@@ -13,13 +13,12 @@ class _LogoAppState extends State<LogoApp> {
           backgroundColor: Colors.cyan[400],
           title: new Text("Navbar"),
           leading: new IconButton(
-            icon: new Icon(Icons.add_a_photo),
+            icon: new Icon(Icons.account_balance_wallet),
             onPressed: () {},
           ),
           actions: <Widget>[
             new IconButton(
               icon: new Icon(Icons.add_circle),
-              
               onPressed: () {},
             ),
           ],
